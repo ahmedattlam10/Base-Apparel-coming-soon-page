@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body
+    class="font-josefin-sans min-h-screen flex flex-col lg:bg-[url(./images/bg-pattern-desktop.svg)] lg:bg-no-repeat"
+  >
+    <main
+      class="flex-1 lg:grid lg:grid-cols-[1fr_auto] lg:grid-rows-[auto_1fr]"
+    >
+      <img
+        src="./images/logo.svg"
+        alt="Base Apparel"
+        class="mt-8 lg:mt-20 ml-8 lg:ml-38"
+      />
+      <picture class="lg:row-span-2 lg:col-start-2 lg:row-start-1">
+        <source media="(min-width: 64rem)" srcset="./images/hero-desktop.jpg" />
+        <img
+          src="./images/hero-mobile.jpg"
+          alt=""
+          class="mt-8 lg:mt-0 w-full lg:h-full lg:object-cover"
+        />
+      </picture>
+      <div class="text-center px-8 pb-20 lg:mt-34 lg:px-38 lg:text-left">
+        <h1
+          class="mt-16 text-[2.5rem] lg:text-[4rem] text-pink-400 font-light uppercase tracking-[10px] leading-none"
+        >
+          We're <span class="text-gray-900 font-semibold">coming soon</span>
+        </h1>
+        <p class="mt-4 lg:mt-8 text-pink-400 text-[0.875rem] lg:text-base">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+        <form>
+          <label for="email-address" class="sr-only">Email Address</label>
+          <div class="mt-8 relative">
+            <input
+              type="email"
+              id="email-address"
+              name="emailAddress"
+              placeholder="Email Address"
+              aria-describedby="email-error"
+              required
+              class="text-gray-900 border border-pink-400 w-full px-6 py-2 rounded-4xl placeholder:text-pink-400 placeholder:opacity-60 focus-visible:outline-none focus-visible:border-2 aria-invalid:border-red-500"
+            />
+            <img
+              id="icon-error"
+              src="./images/icon-error.svg"
+              alt=""
+              hidden
+              class="absolute right-16 top-1/2 -translate-y-1/2"
+            />
+            <button
+              type="submit"
+              aria-label="Submit email"
+              class="bg-linear-135 from-pink-200 to-pink-300 px-6 absolute top-0 -right-1 h-full rounded-4xl shadow-[0_4px_9px_5px_hsla(0,36%,70%,0.4)] cursor-pointer hover:from-pink-200 hover:to-pink-200 transition-[background-color] duration-300 ease-in-out focus-visible:outline-offset-3 focus-visible:outline-2 focus-visible:outline-gray-900"
+            >
+              <img src="./images/icon-arrow.svg" alt="" />
+            </button>
+          </div>
+          <p
+            id="email-error"
+            hidden
+            class="text-left pl-6 mt-2 text-red-500 text-sm"
+          ></p>
+        </form>
+      </div>
+    </main>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

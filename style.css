@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-josefin-sans: "Josefin Sans", sans-serif;
+  --color-pink-400: hsl(0, 36%, 70%);
+  --color-red-500: hsl(0, 93%, 68%);
+  --color-gray-900: hsl(0, 6%, 24%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-pink-50: hsl(0, 100%, 98%);
+  --color-pink-200: hsl(0, 80%, 86%);
+  --color-pink-300: hsl(0, 74%, 74%);
+}
