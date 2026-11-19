@@ -18,19 +18,19 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repo-link](https://github.com/ahmedattlam10/Base-Apparel-coming-soon-page)
+- Live Site URL: [Demo-link](https://base-apparel-coming-soon-page-pink.vercel.app/)
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS custom properties(Tailwind CSS v4 @theme)
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
 - Tailwind CSS
 - vanilla JavaScript
-- [Styled Components](https://styled-components.com/) - For styles
+- vite
 
 ## Author
 
